@@ -2,9 +2,11 @@ import { Profile } from './profile/Profile';
 import Section from './statistics/Section';
 import Statistics from './statistics/Statistics';
 import FriendList from './friendList/FriendList';
+import Transactions from './transactions/Transactions';
 import user from './user.json';
 import data from './data.json';
 import friends from './friends.json';
+import transactions from './transactions.json';
 
 export const App = () => {
   return (
@@ -22,6 +24,7 @@ export const App = () => {
         <Statistics data={data} />
       </Section>
       <FriendList friends={friends} />
+      <Transactions transactions={transactions} />
     </div>
   );
 };
