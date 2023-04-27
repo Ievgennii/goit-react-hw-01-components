@@ -1,0 +1,46 @@
+.statistics {
+  background-color: lightgray;
+  width: 240px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px auto 0 auto;
+
+  /* font-family: 'Roboto'; */
+
+  line-height: 1.5;
+}
+
+.title {
+  background-color: white;
+  padding: 10px 0;
+
+  color: gray;
+}
+
+.statList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 0;
+
+  /* list-style: none;
+  padding: 0;
+  margin: 0; */
+}
+
+.item {
+  display: grid;
+  width: 60px;
+  background-color: brown;
+  
+}
+
+.label {
+font-size: 12px;
+color: white;
+}
+
+.percentage {
+  color: white;
+}
