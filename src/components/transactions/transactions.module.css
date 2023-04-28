@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+thead th {
+  background-color: aqua;
+  color:white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+
+table td {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+td:first-child {
+  text-align: start;
+  padding-inline-start: 10%;
+  
+}
