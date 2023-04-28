@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './statistics.module.css';
-import getRandomHexColor from './utils/getRandomHexColor';
+import getRandomHexColor from '../../utils/getRandomHexColor';
 
 function Data({ label, percentage }) {
   const itemStyles = {

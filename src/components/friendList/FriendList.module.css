@@ -42,6 +42,16 @@
   background-color: red;
 }
 
+.true {
+  composes: status;
+  background-color: green;
+}
+
+.false {
+  composes: status;
+  background-color: red;
+}
+
 .name {
   font-weight: 700;
 }
